@@ -28,7 +28,7 @@ function ToyCard({ toy, onDeleteToy, onUpdateToy }) {
       <img src={toy.image} alt={toy.name} className="toy-avatar" />
       <p>{toy.likes} Likes </p>
       <button className="like-btn" onClick={handleLike}>
-        Like <3
+        {"Like <3"}
       </button>
       <button className="del-btn" onClick={handleDelete}>
         Donate to GoodWill
